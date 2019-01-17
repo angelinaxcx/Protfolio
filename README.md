@@ -1,5 +1,5 @@
 # Protfolio
-This landing page was made for introducing skills and knowledge of Web Development course .
+This landing page was made to introduce skills and knowledge I obtain from the Web Development course .
 # Built Using 
 - HTML
 - CSS
