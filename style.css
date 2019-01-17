@@ -1,0 +1,638 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+
+.container1{
+    width: 100%;
+    height: 1300px;
+    background-image: url(bg8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.dropbtn {
+    width: 60px;
+    height:60px;
+    background-image: url(menu1.png);
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    z-index: 4;
+   
+  }
+  
+  .dropdown {
+    
+    left: 30px;
+    top: 30px;;
+    position: fixed;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-image: url(menu.jpg);
+
+}
+
+.header{
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    font-family:  monospace;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.header:hover{
+    color: #2db4a0;
+}
+
+.header2{
+letter-spacing: 3px;
+left: 0;
+line-height: 200px;
+margin-top: 50px;
+position: absolute;
+text-align: center;
+top: 14%;
+width: 100%;
+color: rgb(82, 80, 80);
+font-family:  monospace;
+    
+    
+}
+
+
+.halftriangle{
+    width: 100%;
+    height: 890px;
+    background-image: url(bg8.jpg);
+    background-attachment: fixed;
+    position: absolute;
+    top:550px;
+    clip-path: polygon(50% 0%, 100% 46%, 100% 75%, 50% 23%, 0% 75%, 0 46%);
+
+}
+
+
+.guypic{
+    width: 100%;
+    height: 600px;
+    background-image: url(alee.jpg);
+    background-size: center;
+    background-attachment: fixed;
+
+    clip-path: polygon(50% 0%, 66% 25%, 100% 84%, 100% 100%, 0 100%, 0 85%, 35% 25%);
+    position: absolute;
+    top: 700px;
+
+}
+
+.iconright{
+   width: 168px;
+   height: 202px;
+   background-image: url(cssda.jpg);
+   position: absolute;
+   right:1px;
+   top:100px;
+}
+
+.whiteicon{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    background-image: url(felesh.jpg);
+    background-size:cover;
+    position: absolute;
+    right:calc(50% - 30px);
+    top:calc(30% - 30px);
+}
+#down {
+    margin-top: 100%;
+    padding-bottom: 100%;
+   } 
+
+
+.whiteicon:hover {
+    background-image: url(whitebox.jpg);
+}
+.triangle{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #20201f;
+    bottom: calc(100% - 1300px);
+}
+
+
+
+.container2{
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    background-color: #20201f;
+    background-size: cover;
+    background-attachment: fixed;
+        
+}
+
+
+.button1{
+    background-color:#393f3b;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 8px;
+    text-decoration:none;
+    margin: 30px 0 0 0;
+    
+  
+ 
+
+}
+
+
+
+.middel-text{
+
+    font-family: 'Imprima', sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    color: white;
+    text-align: center;
+    padding: 0 auto;
+    
+    display: inline-block;
+}
+
+.button2{
+    box-shadow:inset 0px 0px 0px 0px #91b8b3;
+	background-color:lightgrey;
+    border:1px solid #566963;
+    display:inline-block;
+    border-radius:6px;
+	cursor:pointer;
+	color:black;
+	font-size:13px;
+    font-weight:bold;
+    font-family: 'Imprima', sans-serif;
+    padding: 9px 8px;
+	text-decoration:none;
+    text-align: center;
+
+}
+
+.container3{
+    width: 100%;
+    height: 800px;
+    background-image: url(girlpic.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative; 
+}
+
+
+.triangle2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #20201f;
+    top: calc(100% - 800px);
+    transform: rotate(180deg);
+
+}
+
+.text1{
+
+font-size: 150px;
+line-height: 200px;
+margin-top: 50px;
+position: absolute;
+text-align: center;
+top: 14%;
+margin: 100px;
+width: 30%;
+color: #20201f;
+font-family:  monospace;
+}
+
+.text2{
+font-size: 150px;
+line-height: 200px;
+margin-top: 50px;
+position: absolute;
+text-align: center;
+top: 14%;
+margin: 100px;
+width: 30%;
+color: #31c7b0;
+font-family:  monospace;
+margin: 199px;
+}
+
+.container4{
+width: 100%;
+height: 350px;
+position: relative;
+
+}
+
+.box1{
+width: 29.16%;
+height: 100%;
+display: inline-block;
+background-image: url(white-box.jpg);
+background-size: cover;
+}
+
+.box2{
+width: 29.16%;
+height: 100%;
+display: inline-block;
+background-image: url(black-box.jpg);
+background-size: cover;
+}
+
+.box3{
+width: 29.16%;
+height: 100%;
+display: inline-block;
+background-image: url(green-box.jpg);
+background-size: cover;
+
+}
+
+.searchicon{
+    width: 12.5%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(search2.jpg);
+    background-size: cover;
+
+}
+
+.searchicon:hover{
+background-image: url(searchhover.jpg);
+background-size: cover;
+
+}
+
+
+
+.container5{
+    width:100%;
+    height: 800px;
+    background-color: lightgrey;
+    position: relative;    
+    margin: 0 auto;
+    
+}
+
+
+.tri1{
+    width:400px;
+    height: 800px;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-image: url(a.jpg);
+    background-attachment: fixed;
+    position: absolute;
+    left: 100px;
+   
+}
+
+.tri2{
+    clip-path: polygon(100% 100%, 0 100%, 51% 0);
+    background-image: url(b.jpg);
+    background-attachment: fixed;
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    left: 300px;
+
+
+}
+
+
+.tri3{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-image: url(c.jpg);
+    background-attachment: fixed;    
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    left:505px;
+
+
+
+}
+
+.tri4{
+    clip-path: polygon(100% 100%, 0 100%, 51% 0);
+    background-image: url(d.jpg);
+    background-attachment: fixed;
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    left: 705px;
+
+
+
+}
+
+.tri5{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-image: url(f.jpg);
+    background-attachment: fixed;
+    width: 400px;
+    height: 800px;
+   position: absolute;
+   left: 910px;
+
+
+}
+
+
+
+.container6{
+    width: 100%;
+    height: 800px;
+    background-color: lightgrey;
+    position: relative;
+    margin: 0 auto;
+
+
+}
+
+
+.tri6{
+    width:400px;
+    height: 800px;
+    background-image: url(h.jpg);
+    clip-path: polygon(100% 100%, 0 100%, 51% 0);
+    position: absolute;
+    left: 500px;
+}
+
+.tri7{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    width:400px;
+    height: 800px;
+    background-image: url(a.jpg);
+    position: absolute;
+    left: 300px;
+}
+
+
+.tri8{
+    width:400px;
+    height: 800px;
+    background-image: url(c.jpg);
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    position: absolute;
+    left:705px;
+}
+
+.tri1:hover{
+    opacity:0.5;
+
+}
+.tri2:hover{
+    opacity:0.5;
+
+}
+
+.tri3:hover{
+    opacity:0.5;
+
+}
+.tri4:hover{
+    opacity:0.5;
+
+}
+.tri5:hover{
+    opacity:0.5;
+
+}
+.tri6:hover{
+    opacity:0.5;
+
+}
+.tri7:hover{
+    opacity:0.5;
+
+}
+.tri8:hover{
+    opacity:0.5;
+
+}
+
+
+
+.container7{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: rgb(224, 224, 224); 
+    position: relative;  
+    margin: 0 auto;
+}
+
+.onetri{
+    width:400px;
+    height: 800px;
+    background-color: #31c7b0;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    position: absolute;
+    left:510px;
+    
+}
+
+.text{
+    padding-right: 10px;
+    text-align: center;
+    font-size: 250px;
+    color: white;
+
+}
+
+.text3{
+    padding-right: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family:  monospace;
+}
+
+.cup{
+    background-image: url(cup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    margin: 130px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.container7:hover {
+    background-image: url(light.jpg);
+    background-size: cover;
+}
+
+.onetri:hover{
+    background-color:#2ff3d6;
+}
+
+.container8{
+    width: 100%;
+    height: 800px;
+    background-image: url(texture2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.guytext{
+    left: 0;
+    line-height: 500px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    font-family:  monospace;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.container9{
+    width: 100%;
+    height: 400px;
+    background-color: #20201f;
+    border: 1px solid transparent;
+    position: relative;
+
+    
+
+}
+
+
+
+.text4{
+    font-size: 25px;
+    font-family: 'Imprima', sans-serif;
+    letter-spacing: 2px;
+    color: #26bda6;
+    position: absolute;
+    left: 150px;
+    top: 90px;     
+ 
+}
+
+.text5{
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-family: 'Imprima', sans-serif;
+    font-size: 15px; 
+    color: grey;
+    position: absolute;
+    left:110px;
+    top: 150px;
+    
+}
+
+.hovertext1:hover
+{ 
+color:white; 
+cursor: pointer;
+}
+
+
+
+
+
+
+
+.twitter{
+    width: 50px;    
+    height: 50px;
+    background-color: white;
+    background-image: url(twitter.jpg);
+    display: inline-block;
+    position: absolute;
+    right: 295px;
+    top: 150px;
+}
+
+.twitter:hover{
+    background-color: #00ffd8;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url(facebook.jpg);
+    display: inline-block;
+    position: absolute;
+    right: 350px;
+    top: 150px;
+}
+
+.facebook:hover {
+    background-color: #00ffd8;
+}
+
+
+    
+
+
+
+
+
+
+
+
+    
+}
