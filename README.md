@@ -121,5 +121,5 @@ This landing page was made to introduce skills and knowledge I obtain from the W
 }
 
 ```
-# All credits and idea gose to
+# All credits and idea goes to
 - Alee Foroughi for his amazing creativity and work on his site (http://www.aleeforoughi.com/)
